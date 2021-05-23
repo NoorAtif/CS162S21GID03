@@ -5,6 +5,8 @@
  */
 package oop.finalproject;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Hp
@@ -224,6 +226,8 @@ public class CarDetails extends javax.swing.JFrame {
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
+        AddCar form = new AddCar();
+        form.setVisible(true);
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
@@ -232,14 +236,18 @@ public class CarDetails extends javax.swing.JFrame {
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
         // TODO add your handling code here:
+        Form1 form = new Form1();
+        form.setVisible(true);
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
         // TODO add your handling code here:
+        JOptionPane.showInputDialog(null,"Enter The Car Id To Be Removed", "Remove Car", JOptionPane.QUESTION_MESSAGE);
     }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
         // TODO add your handling code here:
+        JOptionPane.showInputDialog(null,"Enter The Car Id To Be Updated", "Update Car", JOptionPane.QUESTION_MESSAGE);
     }//GEN-LAST:event_jButton11ActionPerformed
 
     /**
