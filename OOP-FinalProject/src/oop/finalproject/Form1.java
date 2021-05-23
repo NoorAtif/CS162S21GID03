@@ -4,7 +4,8 @@
  * and open the template in the editor.
  */
 package oop.finalproject;
-
+import java.util.*;
+import javax.swing.JOptionPane;
 /**
  *
  * @author Hp
@@ -143,8 +144,18 @@ public class Form1 extends javax.swing.JFrame {
         jPanel10.setBackground(new java.awt.Color(255, 255, 255));
 
         jButton2.setText("Add Car");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setText("Update Car");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         jButton4.setText("Remove Car");
 
@@ -572,6 +583,19 @@ public class Form1 extends javax.swing.JFrame {
         CarDetails form = new CarDetails();
         form.setVisible(true);
     }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        
+        AddCar form = new AddCar();
+        form.setVisible(true);
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showInputDialog("Enter The Car Id To Be Updated");
+        
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
