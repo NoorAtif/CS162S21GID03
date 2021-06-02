@@ -99,6 +99,12 @@ public class person {
         }
         return flag;
     }
+    
+    public String toString(){
+        return "PersonData{" +"Name=" + Name + ", ID=" + ID + 
+                ", Contact_Number =" + Contact_Number+",CNIC_Number=" 
+                + CNIC_Number +'}';
+    }
 }
 
      
