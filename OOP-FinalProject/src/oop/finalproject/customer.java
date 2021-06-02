@@ -101,11 +101,19 @@ public class customer {
       ArrayList<customer> customer=new ArrayList<>();
       for(int i =0 ; i<customer.size(); i++){
           if(customer.get(i).ID==id){
-              customer.get(id);
+              customer.get(i);
           }
       }
       return null;
   }
-  
+  public static customer SearchByName(String name){
+         ArrayList<customer> customer=new ArrayList<>();
+         for(int i=0 ; i<customer.size(); i++){
+             if(customer.get(i).Name==name){
+                 customer.get(i);
+             }
+         }
+         return null;
+}
   
 }
