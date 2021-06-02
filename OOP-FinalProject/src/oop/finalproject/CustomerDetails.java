@@ -5,6 +5,8 @@
  */
 package oop.finalproject;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Hp
@@ -236,6 +238,8 @@ public class CustomerDetails extends javax.swing.JFrame {
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
+        
+        
         AddCustomer form = new AddCustomer();
         form.setVisible(true);
     }//GEN-LAST:event_jButton6ActionPerformed
