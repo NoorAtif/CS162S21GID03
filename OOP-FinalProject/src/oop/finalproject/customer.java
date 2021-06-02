@@ -94,5 +94,18 @@ public class customer {
                 customer.remove(i);
             }
         }
-  }  
+  } 
+  
+  ////Seacrching of the Cutomer 
+  public static customer SearchByID(int id){
+      ArrayList<customer> customer=new ArrayList<>();
+      for(int i =0 ; i<customer.size(); i++){
+          if(customer.get(i).ID==id){
+              customer.get(id);
+          }
+      }
+      return null;
+  }
+  
+  
 }
