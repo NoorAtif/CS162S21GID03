@@ -115,5 +115,13 @@ public class customer {
          }
          return null;
 }
-  
+  public static customer SeacrchByContact_Number(String contact){
+      ArrayList<customer> customer=new ArrayList<>();
+      for(int i=0; i<customer.size(); i++){
+          if(customer.get(i).Contact_Number==contact){
+              customer.get(i);
+          }
+      }
+    return null;      
+}
 }
