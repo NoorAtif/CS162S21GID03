@@ -86,5 +86,13 @@ public class customer {
                 customer.set(i, this);
             }
     }
-    
+}
+  public void Delete(){
+      ArrayList<customer> customer=new ArrayList<>();
+        for (int i = 0; i < customer.size(); i++) {
+            if (customer.get(i).ID == ID) {
+                customer.remove(i);
+            }
+        }
+  }  
 }
