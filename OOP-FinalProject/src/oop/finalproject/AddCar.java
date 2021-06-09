@@ -56,35 +56,25 @@ public class AddCar extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
 
         jLabel1.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("Maker");
 
         jLabel2.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Name");
 
         jLabel3.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("RegNo (xyz-1234)");
 
         jLabel4.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Owner ID");
 
         jLabel5.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Rent Per Hour In PKR");
 
-        jComboBox1.setBackground(new java.awt.Color(255, 255, 255));
-        jComboBox1.setForeground(new java.awt.Color(0, 0, 0));
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "2021", "2020", "2019", "2018", "2017" }));
 
         jLabel6.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("Model");
 
-        jComboBox2.setBackground(new java.awt.Color(255, 255, 255));
-        jComboBox2.setForeground(new java.awt.Color(0, 0, 0));
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sports Car", "Commercial", "Family", "Convertible", "Compact" }));
         jComboBox2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,17 +83,13 @@ public class AddCar extends javax.swing.JFrame {
         });
 
         jLabel7.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("Car Type");
 
         jLabel8.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("Seating Capacity");
 
         jSpinner1.setToolTipText("");
 
-        jComboBox3.setBackground(new java.awt.Color(255, 255, 255));
-        jComboBox3.setForeground(new java.awt.Color(0, 0, 0));
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "White", "Black", "Silver", "Grey", "Blue" }));
         jComboBox3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -112,11 +98,8 @@ public class AddCar extends javax.swing.JFrame {
         });
 
         jLabel9.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel9.setForeground(new java.awt.Color(0, 0, 0));
         jLabel9.setText("Condition");
 
-        jComboBox4.setBackground(new java.awt.Color(255, 255, 255));
-        jComboBox4.setForeground(new java.awt.Color(0, 0, 0));
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Brand New", "Used" }));
         jComboBox4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -125,51 +108,43 @@ public class AddCar extends javax.swing.JFrame {
         });
 
         jLabel10.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel10.setForeground(new java.awt.Color(0, 0, 0));
         jLabel10.setText("Color");
 
         jButton2.setBackground(new java.awt.Color(204, 204, 255));
-        jButton2.setForeground(new java.awt.Color(0, 0, 0));
         jButton2.setText("Cancel");
 
         jButton3.setBackground(new java.awt.Color(204, 204, 255));
-        jButton3.setForeground(new java.awt.Color(0, 0, 0));
         jButton3.setText("Add ");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
-        jTextField1.setBackground(new java.awt.Color(255, 255, 255));
-        jTextField1.setForeground(new java.awt.Color(0, 0, 0));
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
             }
         });
 
-        jTextField2.setBackground(new java.awt.Color(255, 255, 255));
-        jTextField2.setForeground(new java.awt.Color(0, 0, 0));
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
             }
         });
 
-        jTextField3.setBackground(new java.awt.Color(255, 255, 255));
-        jTextField3.setForeground(new java.awt.Color(0, 0, 0));
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField3ActionPerformed(evt);
             }
         });
 
-        jTextField4.setBackground(new java.awt.Color(255, 255, 255));
-        jTextField4.setForeground(new java.awt.Color(0, 0, 0));
         jTextField4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField4ActionPerformed(evt);
             }
         });
 
-        jTextField5.setBackground(new java.awt.Color(255, 255, 255));
-        jTextField5.setForeground(new java.awt.Color(0, 0, 0));
         jTextField5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField5ActionPerformed(evt);
@@ -327,6 +302,66 @@ public class AddCar extends javax.swing.JFrame {
     private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField5ActionPerformed
+
+    
+    // Validatoors 
+      public boolean isValidName(String Name){
+    boolean flag= true;
+    char [] ch=Name.toCharArray();
+    for(int i =0; i<ch.length; i++){
+         if ((ch[i]>='a' && ch[i]<='z') && (ch[i]>='A' && ch[i]<='Z')){
+             flag=true;
+         }
+         else{
+             flag=true;
+         }
+    }
+   
+    return flag ;
+}
+    public boolean isValidMaker(String Maker){
+        boolean flag=false;
+        char [] aq=Maker.toCharArray();
+        for(int i=0; i<aq.length; i++){
+            if((aq[i]>='a' && aq[i]<='z') && (aq[i]>='A' && aq[i]>='Z')){
+                flag=true;
+            }
+            else{
+                flag=false;
+            }
+        }
+        return flag;
+    }
+    public boolean isValidRegNum(String RegNum){
+        boolean flag=false;
+        char [] a=RegNum.toCharArray();
+        for(int i=0; i<a.length; i++){
+            if((a[i]>='a' && a[i]<='z') && (a[i]>='A' && a[i]<='Z')){
+                flag=true;
+            }
+            else{
+                flag=false;
+            }
+        }
+        return flag;
+    }
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        String Maker=jTextField3.getText();
+        String Name=jTextField1.getText();
+        String RegNum=jTextField4.getText();
+        String Owner_Id=jTextField5.getText();
+        String Rent_Per_Hour=jTextField2.getText();
+        String Model=jComboBox1.getSelectedItem().toString();
+        String CarType=jComboBox2.getSelectedItem().toString();
+       // String Seating capacity=jSpinner1.getAccessibleContext();
+       String vehicle_Color=jComboBox3.getSelectedItem().toString();
+       String Vehicle_Condition=jComboBox4.getSelectedItem().toString();
+//        jLabel1.getText();
+//        jLabel2.getText();
+//        jLabel3.getText();
+        
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
