@@ -4,7 +4,10 @@
  * and open the template in the editor.
  */
 package oop.finalproject;
-
+import java.util.*;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 /**
  *
  * @author Hp
@@ -357,9 +360,13 @@ public class AddCar extends javax.swing.JFrame {
        // String Seating capacity=jSpinner1.getAccessibleContext();
        String vehicle_Color=jComboBox3.getSelectedItem().toString();
        String Vehicle_Condition=jComboBox4.getSelectedItem().toString();
-//        jLabel1.getText();
-//        jLabel2.getText();
-//        jLabel3.getText();
+       //Calling of the Function
+       boolean Answer=isValidRegNum(RegNum);
+       boolean Option=isValidName(Name);
+        boolean choice=isValidMaker(Maker);
+//       if(Answer==true && Option==true && choice==true){
+          JOptionPane.showMessageDialog(null, "Student Has Been Added Properly");
+//       }
         
     }//GEN-LAST:event_jButton3ActionPerformed
 

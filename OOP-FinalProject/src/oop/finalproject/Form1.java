@@ -629,14 +629,11 @@ public class Form1 extends javax.swing.JFrame {
         form.setVisible(true);
     }//GEN-LAST:event_jButton10ActionPerformed
 
-    public boolean isValidName(String Name){
-    boolean flag= true;
-    return flag ;
-}
+  
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         
-        AddCar form = new AddCar();
+       AddCar form = new AddCar();
         form.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
