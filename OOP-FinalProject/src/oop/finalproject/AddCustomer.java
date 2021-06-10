@@ -164,7 +164,33 @@ public class AddCustomer extends javax.swing.JFrame {
         CustomerDetails form = new CustomerDetails();
         form.setVisible(true);
     }//GEN-LAST:event_jButton6ActionPerformed
-
+public boolean isValidCNIC(String CNIC){
+    boolean flag=false;
+    char [] ch=CNIC.toCharArray();
+    for(int i=0; i<ch.length; i++){
+         if((ch[i]>='0' && ch[i]<='0')&& (ch[i]=='-'))
+         {
+             flag =true;
+         }
+         else{
+             flag=false;
+         }
+    }
+   return flag;
+}
+public boolean isValidName(String Name){
+    boolean flag=true;
+    char [] aq=Name.toCharArray();
+    for(int i=0; i<aq.length; i++){
+        if(aq[i]>='a' && aq[i]<='z'){
+            flag=true;
+        }
+        else{
+            flag=false;
+        }
+    }
+    return flag;
+}
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
         // TODO add your handling code here:
        
