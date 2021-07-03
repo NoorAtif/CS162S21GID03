@@ -2,37 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/UpdateOwner.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/CustomerDetails.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/classes/Car.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/DeleteOwner.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/main.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/AddOwner.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/Form1.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/pic1.jpg</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/OwnerDetails.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/classes/CustomerManagement.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/DeleteCustomer.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/classes/Booking.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/UnBook.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/LogginForm.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/AddCar.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/AddCustomer.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/person.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/classes/BookingManagement.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/classes/CarManagement.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/owner.jpg</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/classes/OwnerManagement.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/BookDetails.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/box_faqs.jpg</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/BookCar.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/CarDetails.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/classes/Person.java</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/cars.png</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/car_hero.png</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/carsTab%20image.jpeg</file>
-            <file>file:/F:/My%20Git%20repositories/Car_Rental-System/OOP-FinalProject/src/oop/finalproject/UpdateCustomer.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
